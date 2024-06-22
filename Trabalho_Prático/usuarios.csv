@@ -1,0 +1,5 @@
+username,nome,senha,permissao
+admin,Administrador,admin123,gerente
+func1,Funcionario Um,senha123,funcionario
+estag1,Estagiario Um,senha123,estagiario
+cliente1,Cliente Um,senha123,cliente

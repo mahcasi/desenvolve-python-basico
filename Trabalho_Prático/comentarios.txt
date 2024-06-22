@@ -1,0 +1,28 @@
+Uma empresa que vende acessorios de prata chamada "Lorena Fernandes Joias". 
+
+O sistema será utilizado por quatro tipos de usuários: gerente, funcionário, estagiário e cliente. 
+
+A empresa oferece acessorios de prata, e o sistema gerenciará o controle de usuários e peças disponíveis para venda.
+
+Utilizei um dicionário para armazenar as informações dos usuários, onde a chave será o nome de usuário (username) e o valor será outro dicionário contendo os detalhes do usuário (nome, senha, nível de permissão, etc.).
+
+O arquivo usuarios.csv armazenará as informações dos usuários em formato CSV com a seguinte estrutura: username,nome,senha,permissao.
+
+Utilizaremos uma lista de dicionários para armazenar as informações das peças. Cada dicionário conterá os atributos de uma peça (código, nome, preço, quantidade.).
+
+O arquivo pecas.csv armazenará as informações das peças em formato CSV com a seguinte estrutura: codigo,nome,preco,quantidade.
+
+CRUD de Usuários
+Create: Adicionar um novo usuário ao sistema.
+Read: Ler e listar os usuários existentes.
+Update: Atualizar informações de um usuário existente.
+Delete: Remover um usuário do sistema.
+
+CRUD das peças
+Create: Adicionar um novo veículo ao sistema.
+Read: Ler e listar os veículos existentes.
+Update: Atualizar informações de um veículo existente.
+Delete: Remover um veículo do sistema.
+Buscar: Buscar um veículo específico pelo nome ou código.
+Ordenar por Nome: Imprimir os registros de veículos ordenados por nome.
+Ordenar por Preço: Imprimir os registros de veículos ordenados por preço.
